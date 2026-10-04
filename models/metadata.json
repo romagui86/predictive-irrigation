@@ -1,0 +1,16 @@
+{
+  "features": [
+    "theta_est_t",
+    "delta_theta",
+    "dist_umbral",
+    "etc_est",
+    "lluvia_pron_24h",
+    "riego_t",
+    "dias_desde_ultimo_riego"
+  ],
+  "decision_threshold": 0.2,
+  "dose_mm": 10,
+  "model": "M_boosting",
+  "target": "estres_en_t+1",
+  "policy": "P1"
+}
